@@ -1,0 +1,75 @@
+/*navbar*/
+li {
+    display: inline;
+}
+
+nav li {
+    float: right;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7px 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+li a:hover {
+    color: rgb(119, 118, 118);
+    text-decoration: underline;
+}
+
+#signin { 
+    background-color:#4683ea;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 7px 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border: 1px solid #4285f4;
+    border-radius: 5%;
+}
+
+#apps {
+        height: 21px;
+        width: 21px;
+}
+
+/*logo*/
+#logo{
+    height: 6em;
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*search bar*/
+#search{
+    margin-top: 1em;
+    height: 2.5em;
+    width: 38em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*butoes*/
+#butoes{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

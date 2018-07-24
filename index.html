@@ -2,22 +2,25 @@
     <head>
         <meta charset="UTF-8">
         <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <nav>
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img src="" alt="apps"></li>
-                <li><button>Sign In</button></li>
+                <li><button id="signin">Sign In</button></li>
+                <li ><a href="#"><img id="apps" src="images/google_apps.png" alt="apps"></a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Gmail</a></li>
             </ul>
         </nav>
         <section>
-            <img src="images/2000px-Google_2015_logo.svg.png" alt="google logo">
+            <img id="logo" src="images/2000px-Google_2015_logo.svg.png" alt="google logo">
             <form action="#" method="GET">
-                <input type="text">
-                <button type="submit" value="Submit">Google Search</button>
-                <button type="submit" value="Submit">I'm Feeling Lucky</button>
+                <input id="search" type="text">
+                <div id="butoes">
+                    <button id="btn-lft"type="submit" value="Submit">Google Search</button>
+                    <button id="btn-rgt"type="submit" value="Submit">I'm Feeling Lucky</button>
+                </div>
             </form>
         </section>
         <footer>
@@ -25,8 +28,6 @@
                 <li>Advertising</li>
                 <li>Business</li>
                 <li>About</li>
-            </ul>
-            <ul>
                 <li>Privacy</li>
                 <li>Terms</li>
                 <li>Settings</li>
