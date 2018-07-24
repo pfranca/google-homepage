@@ -54,6 +54,7 @@ li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
 
 /*search bar*/
@@ -68,9 +69,12 @@ li a:hover {
 
 /*butoes*/
 #butoes{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2em;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
 /*footer*/
@@ -91,7 +95,13 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:grey;
+    background-color:#f2f2f2;
     text-align: center;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer li a {
+    color: #666;
+    font-size:14px;
 }
 
