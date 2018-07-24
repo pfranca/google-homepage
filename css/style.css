@@ -73,3 +73,25 @@ li a:hover {
     margin-right: auto;
 }
 
+/*footer*/
+
+footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    text-align: center;
+}
+
